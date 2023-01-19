@@ -11,6 +11,7 @@ streamlit.text(my_data_row)
 import streamlit
 import streamlit
 import snowflake.connector
+cffi==1.15.0               
 import pandas
 streamlit.title('Zena\'s Amazing Athleisure Catalog')
 # connect to snowflake
